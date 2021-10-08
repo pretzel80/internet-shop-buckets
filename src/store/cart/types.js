@@ -1,0 +1,11 @@
+const ADD_TO_CART = 'HW4/CART/ADD_TO_CART';
+const DELETE_FROM_CART = 'HW4/CART/DELETE_FROM_CART';
+const CHECKOUT_CLEAR_CART = 'HW4/CART/CHECKOUT_CLEAR_CART';
+
+const exportedObject = {
+    ADD_TO_CART,
+    DELETE_FROM_CART,
+    CHECKOUT_CLEAR_CART
+}
+
+export default exportedObject;

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+#root{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainContent{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.shop{
+    margin-block-end: auto;
+}
+

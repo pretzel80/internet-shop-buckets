@@ -1,0 +1,86 @@
+.modalOverlay {
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.modalWindow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFF;
+  min-height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  color: #FFFFFF;
+
+  z-index: 100;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: x-large;
+}
+
+.modalHeader,
+.modalBody,
+.modalFooter {
+  padding: 35px 20px;
+  color: #FFFFFF;
+}
+
+.modalText {
+  padding: 0 25px;
+  height: 125px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modalFooter {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalFooter button {
+  border: 0;
+  color: #FFFFFF;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: small;
+  margin: 10px;
+}
+
+.modalCrossWrapper{
+  width: 40px;
+  height: 40px;
+  cursor:pointer;
+  position: relative;
+}
+
+.modalCross{
+  width: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}

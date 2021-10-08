@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button test snapshot Simple Button snapshot 1`] = `
+<div>
+  <div>
+    <button
+      class="buttonAddToCart"
+      data-testid="testButton"
+    />
+  </div>
+</div>
+`;
+
+exports[`Button test snapshot Simple Button snapshot test with test-text 1`] = `
+<div>
+  <div>
+    <button
+      class="buttonAddToCart"
+      data-testid="testButton"
+    >
+      test-text
+    </button>
+  </div>
+</div>
+`;

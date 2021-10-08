@@ -1,0 +1,14 @@
+.sidebar-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sidebar-link{
+    text-decoration: none;
+}
+
+.selected {
+    color: red;
+    font-weight: bold;
+}
+
