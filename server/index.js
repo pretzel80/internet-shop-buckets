@@ -7,10 +7,10 @@ const port = process.env.PORT || 8000
 const app = express()
 
 const buckets = [
-    {"id": 1, "name": "Plastic circle bucket 10L Black", "src": "../img/1.jpg", "article": "pl-10-c-blk", "price": 150},
-    {"id": 2, "name": "Plastic circle bucket 15L Blue", "src": "./img/2.jpg", "article": "pl-15-c-bl", "price": 200},
-    {"id": 3, "name": "Plastic circle bucket 10L Green", "src": "img/3.jpg", "article": "pl-10-c-grn", "price": 160},
-    {"id": 4, "name": "Plastic square bucket 8L Grey", "src": "/img/4.jpg", "article": "pl-8-sq-gr", "price": 180},
+    {"id": 1, "name": "Plastic circle bucket 10L Black", "src": "../Img/1.jpg", "article": "pl-10-c-blk", "price": 150},
+    {"id": 2, "name": "Plastic circle bucket 15L Blue", "src": "./Img/2.jpg", "article": "pl-15-c-bl", "price": 200},
+    {"id": 3, "name": "Plastic circle bucket 10L Green", "src": "Img/3.jpg", "article": "pl-10-c-grn", "price": 160},
+    {"id": 4, "name": "Plastic square bucket 8L Grey", "src": "/Img/4.jpg", "article": "pl-8-sq-gr", "price": 180},
     {"id": 5, "name": "Plastic circle bucket 20L Olive", "src": "/img/5.jpg", "article": "pl-20-c-olv", "price": 300},
     {"id": 6, "name": "Plastic circle bucket 6L Orange", "src": "/img/6.jpg", "article": "pl-06-c-or", "price": 100},
     {"id": 7, "name": "Plastic circle bucket 8L pink", "src": "/img/7.jpg", "article": "pl-08-c-pnk", "price": 110},
